@@ -38,7 +38,23 @@ body {
         color: var(--branco);
         display: flex;
         justify-content: center;
+        padding: lem;
+        font-size: 18px;
+        align-items: center;
+        width: 100%;
+        border-bottom: 4px solid var(--botao-ativo);
+        border-left: 4px solid var(--botao-ativo);
+        border-right: 4px solid var(--botao-ativo);
+        border-top: none;
+ }
+  @media screen and (min-width: 768px)   {
+    .botoes{
+        display: flex;
     }
+    
+  }
+    
+  
 
  
 
